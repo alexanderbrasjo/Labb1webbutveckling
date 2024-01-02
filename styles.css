@@ -1,0 +1,109 @@
+.fixed-top-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030; 
+}
+.header-image img {
+    max-width: 100%;  
+    max-height: 125px; 
+    height: auto;  
+    display: block; 
+    margin: 0 auto; 
+}
+.image {
+    max-width: 90%;
+    max-height: 500px;
+}
+
+body {
+    padding-top: 220px; 
+}
+.navbar-collapse {
+    justify-content: center; 
+    
+}
+.navbar-text {
+    display: none;
+    font-size: 1.5em;
+    color: #212529 !important;
+}
+
+.navbar {
+    height: 60px;
+}
+@media (max-width: 992px) { 
+    .navbar-text {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .navbar-collapse {
+        background-color: white;
+    }
+}
+.navbar-brand {
+    margin-right: 0; 
+}
+.navbar-nav .nav-link {
+    line-height: 50px;
+    font-size: 1.5em; 
+    color: #212529 !important;
+    background-color: transparent;
+}
+.navbar-nav .nav-link.active {
+    color: #881313 !important;
+    background-color: transparent;
+}
+#map {
+    height: 400px; 
+    width: 100%; 
+}
+
+#menuContainer {
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.footer-color {
+    background-color: #b44a4a;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 50px; 
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; 
+}
+
+#notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #d95d5d; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1040;
+}
+
+
+
+
